@@ -1,9 +1,12 @@
 import React from 'react'
 
-const page = () => {
+const Login = () => {
   return (
-    <div>page</div>
-  )
-}
+    <div
+      className="h-[100vh] w-full flex items-center justify-center bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: 'url("/home/home-bg.png")'}}
+    ></div>
+  );
+};
 
-export default page
+export default Login
